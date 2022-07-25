@@ -1,0 +1,110 @@
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    height:210px;
+    margin:1.66%;
+    background-color:rgb(160, 225, 255);
+    overflow:hidden;
+    border-radius: 15px;
+    box-shadow: rgba(28, 2, 2, 0.8) 0 0 10px;    
+}
+
+.content {
+    position:absolute;
+    height:80%; 
+    width:80%; 
+    padding: 6%;   
+}
+p {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+body {
+    font-size:20px;
+    font-family: 'Lato',verdana, sans-serif;
+    color: #fff;
+    background:#ECECEC;
+}
+
+.button {    
+    background-color: #04AA6D; 
+    color: rgb(1, 12, 6); 
+    border: 2px solid black;
+    align-self: center;
+    border-radius: 10px;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;   
+    font-size: 16px;
+    margin: 90px 115px 10px;
+    /* margin-left: ; */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-items: center;
+  }
+    
+  .button:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+  }
+  .back {
+    background-color: aqua;
+
+  }
+  
+  #java{
+    background-image: url("/assets/images/java.png");
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-x: center;
+    backface-visibility: inherit;
+    
+  }
+  #python{
+    background-image: url("/assets/images/python.png");
+    background-repeat: no-repeat;
+    background-size: 98%;
+    background-position-x: center;
+    backface-visibility: inherit;
+  }
+  #php{
+    background-image: url("/assets/images/php.png");
+    background-repeat: no-repeat;
+    background-size: 43%;
+    background-position-x: center;
+    backface-visibility: inherit;
+  }
+  #net{
+    background-image: url("/assets/images/net.png");
+    background-repeat: no-repeat;
+    background-size: 43%;
+    background-position-x: center;
+    backface-visibility: inherit;
+  }
+  #c{
+    background-image: url("/assets/images/c2.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    backface-visibility: inherit;
+  }
+  #cplus{
+    background-image: url("/assets/images/cplus.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: center; 
+    backface-visibility: inherit;
+  }
+  .square:hover{
+    transform: scale(1);
+    background: rgb(0, 208, 255);
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    
+  }
+
+  

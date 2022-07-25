@@ -1,0 +1,27 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+#i:hover{
+  transform: scale(1);
+  background: rgb(221, 244, 249);
+  z-index: 2;
+  box-shadow: 2px 2px 2px #000;
+    
+}
+#h:hover{
+  transform: scale(1);
+  background: rgb(196, 223, 228);
+  z-index: 2;
+  box-shadow: 2px 2px 2px #000;
+    
+} 
